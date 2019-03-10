@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtViewGlicemia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF8247" />
+
+    <TextView
+        android:id="@+id/txtDataGlicose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Glicose"/>
+
+    <TextView
+        android:id="@+id/txtQntGlicose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade Glicose"/>
+
+    <TextView
+        android:id="@+id/txtQntInsulina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade Insulina"/>
+
+    <TextView
+        android:id="@+id/txtstaus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtViewObsglicose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF8247" />
+
+
+ <!--<TextView
+        android:id="@+id/txtPreRejeicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pre refeição"/>
+
+    <TextView
+        android:id="@+id/txtPosRefeicao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pos Refeição"/>-->
+
+
+
+</LinearLayout>

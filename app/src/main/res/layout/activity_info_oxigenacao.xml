@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.healthheart.jessica.hh.Activity.InfoOxigenacaoActivity">
+
+    <Button
+        android:id="@+id/btnVoltarPrinpalOxi"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:text="Voltar Tela Oxigenação"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_logo_menor" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Informações Oxigenação"
+        android:textColor="#CD9B9B"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="A oximetria é um exame que mede a quantidade de oxigênio que está sendo transportado na circulação sanguínea,conseguem medir a concentração de gases nas células do sangue, o que também é chamado de saturação de oxigênio."/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=" Existem formas diferentes de se medir a oximetria, que são:"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Não invasina: chamada de oximetria de pulso ou de dedo, é medida através de um aparelho chamado oxímetro, que tem um sensor capaz de medir a saturação de oxigênio e a frequência dos batimentos cardíacos, demonstrados em uma tela digital."/>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=" Invasiva: é a forma de se medir informações da oxigenação do sangue através da coleta de sangue ou pela introdução de um catéter que fica fixado no interior dos dos vasos sanguíneos, em que se coleta amostras de sangue para a medida dos dados, uma exame chamado de gasometria."/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#CD9B9B"
+        android:text=" Fonte: Tua Saúde - Drª. Elaine Aires - Clínico Geral" />
+
+    <!--fonte https://www.tuasaude.com/oximetria/-->
+
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#CD9B9B"
+        android:text="@string/txt_Direitos" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Health Heart</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Texto de repetição-->
+    <string name="txt_BemVindos">Bem vindos ao Health Heart</string>
+
+
+    <string name="txt_Pressao">Pressão Sanguínea</string>
+    <string name="txt_Bati">Batimentos Cardíacos</string>
+    <string name="txt_Oxi">Oxigenação Sanguínia</string>
+    <string name="txt_Glicose">Glicose no Sangue</string>
+    <string name="txt_Peso">Peso</string>
+    <string name="txt_Medica">Medicação Diária</string>
+    <string name="txt_VoltaPrinc">Voltar Tela Principal</string>
+    <string name="txt_DoencaCard">Doenças Cardíacas</string>
+    <string name="txt_agua">Consumo Diário de Água</string>
+    <string name="txt_Info">Informações</string>
+
+    <string name="txt_Direitos">Todos Direitos reservados a Health Heart</string>
+
+    <string name="txt_NaoTemLogin">Não tem cadastro? Clique aqui.</string>
+
+    <!--Titulos botões-->
+    <string name="txt_Logar">Logar</string>
+
+    <!--Texto sobre imc-->
+    <string name="txt_infoImc">A mediçao do índice de massa corporal (IMC)
+        é usada para determinar se um adulto tem um peso
+        saúdavel para sua altura.\n\n
+        O IMC de uma pessoa é calculado pela divisão do
+        seu peso em quilogramas(Kg) pela sua altura ao
+        quadrado em metros(m²).\n\n
+        Por exemplo, um adulto que tenha 1,75 m de altura e
+        70 Kg teráum IMC de 22,9 que está dentro da faixa saúdavel.\n\n</string>
+
+
+    <!--Texto sobre circunferencia-->
+    <string name="txt_infoCircu">Segundo a Organização Mundial da Saúde (OMS),
+        é a medida da região do abdômen, no ponto médio entre a borda inferior
+        da última costela e a borda superior da crista ilíaca, onde pode se
+        concentrar a gordura visceral, diretamente relacionada a diversos riscos,
+        como aumento da pressão arterial, diabetes e colesterol alto, fatores que
+        elevam o risco de doenças cardiovasculares. \n\n
+        Daí a importância dessa medida,
+        que você mesmo pode tirar com o auxílio de uma fita métrica.\n\n
+        A Organização Mundial da Saúde (OMS) estabelece que a medida igual ou superior a 94 cm em homens e 80 cm em mulheres indica risco de doenças ligadas ao coração.</string>
+
+    <!--Info Glicose-->
+    <string name="txt_infoGlico">
+         A glicose sanguínea refere-se ao açúcar que é transportado
+         através da corrente sanguínea para suprir energia a todas as células no seu corpo.\n\n
+
+         A glicose é resultante do alimento que comemos.  Carboidratos como frutas,  pães,
+         massas e cereais são fontes comuns de glicose.  os níveis de glicose irão variar dependendo de quando,
+         o que e quanto você se alimenta e se você pratica exercícios ou não.\n\n
+
+         Manter seus níveis de glicose próximos ao normal é muito importante.O acompanhamento dos seus níveis e glicose
+         sanguínea durante o dia é útil no controle da diabete.\n\n
+
+         Um médico ou fornecedor de cuidados em saúde pode dizer a você como e quando verificar sua glicose sanguínea.\n\n
+     </string>
+
+
+</resources>

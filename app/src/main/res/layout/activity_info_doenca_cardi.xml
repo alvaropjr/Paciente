@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.healthheart.jessica.hh.Activity.InfoDoencaCardiActivity">
+
+
+
+    <Button
+        android:id="@+id/btnVoltarPrinpalDoenCar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:text="Voltar Doenças Cardíacas"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_logo_menor" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Informações Doenças Cardíacas"
+        android:textColor="#66CDAA"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angina instável:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É uma dor no peito, sua causa mais comum é a redução do fluxo de sangue no coração em decorrência do estreitamento das artérias coronárias (aterosclerose). Tal doença deve ser tratada com emergência, sendo assim o paciente deve ser encaminhado ao pronto socorro caso haja um desconformo prolongado no peito e/ou piora. \n
+Sintomas: dor no peito enquanto em repouso ou pouco esforço físico inesperadamente; medicamento ou descanso não aliviam a dor; a dor pode piorar com o tempo e levar a um ataque cardíaco.	\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angina estável:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É uma dor no peito causada por doença coronária que estreita as artérias (não aterosclerose) que reduzira o fluxo de sangue no músculo cardíaco. \n
+Sintomas: Seus sintomas são semelhantes a Angina instável, porém a dor pode durar mais tempo: dor no peito enquanto em repouso ou pouco esforço físico inesperadamente; medicamento ou descanso não aliviam a dor; a dor pode piorar com o tempo e levar a um ataque cardíaco.	\n
+" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Arritmia cardíaca:"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="- É a alteração na sequência normal de impulsos elétricos no coração. Tais impulsos passam a ocorrer de forma descompassada, mais rápido ou mais lento ou ainda de forma errática, fazendo com o sangue não seja bombeado de forma eficaz, prejudicando todos os órgãos. \n Sintomas: 	uma arritmia leve causara uma palpitação pouco perceptível até uma sensação de vibração no peito quando as palpitações aumentam. Condições mais graves, no entanto, se manifestam de outras formas: fadiga, tontura, desmaio, falta de ar, dores no peito, elevação do ritmo cardíaco. \n" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aterosclerose:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É o acumulo de placas em artérias. Tais placas são compostas por colesterol, gordura, resíduos celulares, cálcio e fibrina. \n
+Sintomas: dores no peito, dores nas pernas enquanto em atividade física, falta de ar, má cicatrização de feridas; \n\
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arteriosclerose:"
+                android:textColor="#66CDAA"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É o estreitamento e endurecimento das artérias., perdendo sua elasticidade. \n Sintomas: Dores no peito, confusão, caso o bloqueio seja em artérias. que levam sangue para ela, dores nas pernas, fraqueza muscular. \n" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardiomiopatia :"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="O músculo cardíaco torna-se alargado, grosso ou rígido na cardiomiopatia e, em casos raros, o tecido muscular é substituído por tecido cicatricial. \n
+Sintomas:  Falta de ar ou dificuldade em respirar enquanto em esforço físico, inchaço nos tornozelos, pés, pernas, abdômen e veias no pescoço. \n
+" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cardiopatia congênita:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=" É qualquer defeito no coração ou vasos sanguíneos próximos que não se desenvolvem normalmente antes do nascimento. \n Sintomas: pele azulada (cianose), falta de ar, sudorese, tonturas. \n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endocardite:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É a infecção do revestimento interno do coração. Geralmente causada por bactéria ou germes de outras partes do corpo. \n
+Sintomas: Febre, palidez, perda de peso, dor nos músculos e articulações, nódulos em baixo da pele dos dedos. \n\" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estenose mitral:"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="É o estreitamento da válvula mitral, retardando o fluxo de sangue do átrio esquerdo para o ventrículo esquerdo. \n
+Sintomas: quando leve não costuma causar sintomas. Sua progressão começa a causar fadiga e falta de ar. Quando mais grave, pode ocasionar rubor facial, falta de ar durante repouso, tosse com sangue. \n" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estenose pulmonar:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É quando o ventrículo direito é obstruída de forma anatômica, não por formação de placas. \n
+Sintomas : sopro no coração, falta de ar, cansaço, tontura. \n" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Fibrilação atrial:"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É um tipo de arritmia cardíaca onde os átrios se fecham mais rapidamente e irregularmente. \n
+Sintomas: desmaio, cansaço prematuro em exercício, falta de ar, palpitações. \n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hipertensão:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É quando a pressão sanguínea é consistentemente muito alta. \n
+ Sintomas: de acordo com a heart.org, não existem sintomas para pressão alta. \n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hipotensão:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="- É oposto à hipertensão, onde a pressão sanguínea é abaixo do esperado. Só se considera perigosa quando os sintomas a seguir são apresentados. \n
+ Sintomas: náuseas, tontura, desidratação, visão embaçada, falta de concentração. \n\" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Infarto:"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É o bloqueio da coronária, impedindo a oxigenação do coração. \n Sintomas: dor no peito que pode passar para o braço esquerdo, pescoço, estômago e costas, suor frio, desmaio.\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insuficiência cardíaca:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="- É quando o coração deixa de bombear o sangue de forma eficaz geralmente associado a um enfraquecimento do mesmo. \n
+ Sintomas: ritmo cardíaco acelerado, náuseas, edema, tose persistente.\n" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pericardite:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É a inflamação na bolsa que envolve o coração, mantém sua posição e impede que se além de sua capacidade de sangue. \n
+Sintomas: ansiedade, tosse seca, fadiga, febre, dor aguda e continua no peito. \n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Prolapso da válvula mitral:"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É quando a válvula das câmaras superioras do coração do lado esquerdo não se fecha apropriadamente. \n
+Sintomas: arritmia, vertigens, fadiga, dificuldade em respirar. \n" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Sopro no coração:"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="É quando o sangue passa por uma das válvulas do coração e está com tamanho reduzido ou não se fecha corretamente. \n
+Sintomas: falta de ar, pele azulada, falta de apetite, ruído no peito durante exame físico. \n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Taquicardia ventricular:"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="- É quando os ventrículos batem muito rapidamente, mas não é uma condição definitiva, onde o coração retoma seu ritmo normal. \n
+Sintomas: Palpitação, fraqueza. \n\" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tumor cardíaco :"
+                android:layout_marginLeft="10dp"
+                android:textColor="#66CDAA"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="São tumores que se apresentam inicialmente no coração.\n Sintomas: insuficiência cardíaca, arritmias, embolia.\n" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#66CDAA"
+        android:text="Informações Doenças Cardíacas"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

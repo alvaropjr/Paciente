@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "56755892252",
+    "firebase_url": "https://hhmonitor-127d4.firebaseio.com",
+    "project_id": "hhmonitor-127d4",
+    "storage_bucket": "hhmonitor-127d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56755892252:android:9e55ef3c1ebde640",
+        "android_client_info": {
+          "package_name": "com.healthheart.jessica.hh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56755892252-8e9ndgn63t75n21145sgojs91ff5a01b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.healthheart.jessica.hh",
+            "certificate_hash": "618345a82f5fbaa232329dcf6b476386713f1b03"
+          }
+        },
+        {
+          "client_id": "56755892252-tjbm05b5sa062shouivu21jood7b1pfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIgPbdlPBgjQB8xRKR5gE2xm7weyZQUqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56755892252-tjbm05b5sa062shouivu21jood7b1pfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

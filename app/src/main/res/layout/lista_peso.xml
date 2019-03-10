@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtViewImc"
+        android:textColor="#FF8247"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtViewCircu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF8247" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+     <TextView
+        android:id="@+id/txtDataPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Peso"/>
+
+    <TextView
+        android:id="@+id/txtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso"/>
+
+
+    <TextView
+        android:id="@+id/txtAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altura"/>
+
+    <TextView
+        android:id="@+id/txtCircuCintura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Circunferencia"/>
+
+    <TextView
+        android:id="@+id/txtsexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

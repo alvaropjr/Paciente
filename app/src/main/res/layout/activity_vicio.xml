@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.healthheart.jessica.hh.Activity.VicioActivity">
+
+    <Button
+        android:id="@+id/btnVoltarPrinpalSau"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:text="Voltar Tela Saúde"
+        android:textSize="8sp" />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_logo_menor" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#CD2626"
+        android:text="Vícios"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAddVicios"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Vícios"
+            android:textColor="#CD2626"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btnHisVicio"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Histórico Vícios"
+            android:textColor="#CD2626" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--<EditText
+                android:id="@+id/edttxtDataVicoDrogas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:hint="Data do Vícios Drogas"/> -->
+
+                <CheckBox
+                    android:id="@+id/chcboxVicioDrogas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vícios em Drogas"
+                    android:textColor="@color/colorPrimaryDark" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#CD2626"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Insira o nome das drogas separadas por vírgula(,)"/>
+
+          <!--  <EditText
+                android:id="@+id/edttxtDataVicoAlcoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:hint="Data do Vicio Drogas"/> -->
+
+                <EditText
+                            android:id="@+id/edttxtDrogas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/colorPrimaryDark"
+                            android:hint="Nome das Drogas"/>
+
+
+                <CheckBox
+                    android:id="@+id/chcboxVicioAlcool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vício em Álcool"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#CD2626"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Insira o nome das Bebidas Alcoólicas separados por vírgula(,)"/>
+
+            <EditText
+                android:id="@+id/edttxtAlcool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome das Bebidas Alcoólicas"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+
+            <CheckBox
+                    android:id="@+id/chcboxVicioMedica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vício em Medicamentos"
+                    android:textColor="@color/colorPrimaryDark" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#CD2626"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Insira o nome dos Medicamentos separados por vírgula(,)"/>
+
+                <EditText
+                    android:id="@+id/edttxtVicioMedica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    android:hint="Nome dos Medicamentos"/>
+
+
+                <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btnSalvaVicios"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Salvar"
+                                android:textColor="#CD2626" />
+
+                            <Button
+                                android:id="@+id/btnCancVicios"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Cancelar"
+                                android:textColor="#CD2626" />
+                        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

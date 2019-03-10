@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.healthheart.jessica.hh.Activity.BebidaActivity">
+
+    <Button
+        android:id="@+id/btnVoltarPrinpal"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:text="Voltar Tela Principal"
+        android:textSize="8sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_logo_menor" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Escolha uma das opções abaixo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#97496d" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.12"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtnAgua"
+            android:layout_width="150dp"
+            android:layout_height="128dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_aguaazul_menor" />
+
+
+        <ImageButton
+            android:id="@+id/imgbtnOutrasBebidas"
+            android:layout_width="150dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_bebidasalcoo_menor" />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:textColor="#97496d"
+        android:text="@string/txt_Direitos" />
+
+
+</LinearLayout>

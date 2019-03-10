@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.healthheart.jessica.hh">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.PrincipalActivity" />
+        <activity android:name=".Activity.BatimentosActivity" />
+        <activity android:name=".Activity.OxigenacaoActivity" />
+        <activity android:name=".Activity.PressaoActivity" />
+        <activity android:name=".Activity.PesoActivity" />
+        <activity android:name=".Activity.GlicoseActivity" />
+        <activity android:name=".Activity.MedicacaoActivity" />
+        <activity android:name=".Activity.AguaActivity" />
+        <activity android:name=".Activity.DescansoActivity" />
+        <activity android:name=".Activity.SaudeActivity" />
+        <activity android:name=".Activity.CriarLoginActivity" />
+        <activity android:name=".Activity.HistoricoMedicamentosActivity" />
+        <activity android:name=".Activity.HistoricoPressaoActivity" />
+        <activity android:name=".Activity.HistoricoGlicoseActivity" />
+        <activity android:name=".Activity.HistoricoPesoActivity" />
+        <activity android:name=".Activity.HistoricoDescansoActivity" />
+        <activity android:name=".Activity.BebidaActivity" />
+        <activity android:name=".Activity.HistoricoAguaActivity" />
+        <activity android:name=".Activity.ImcCircuferenciaActivity" />
+        <activity android:name=".Activity.InfoImcCircuActivity" />
+        <activity android:name=".Activity.InfoGlicoseActivity" />
+        <activity android:name=".Activity.InfoPressaoActivity" />
+        <activity android:name=".Activity.InfoMedicaActivity" />
+        <activity android:name=".Activity.InfoDoencaCardiActivity" />
+        <activity android:name=".Activity.VicioActivity" />
+        <activity android:name=".Activity.HistoricoVicioActivity" />
+        <activity android:name=".Activity.HistoricoBatimentosActivity" />
+        <activity android:name=".Activity.HistoricoOxigenacaoActivity" />
+        <activity android:name=".Activity.HistoricoDoencaCardiActivity" />
+        <activity android:name=".Activity.DoencaCardActivity" />
+        <activity android:name=".Activity.InfoBatimentosActivity" />
+        <activity
+            android:name=".Activity.ListaDispositivos"
+            android:label="Dispositivos Pareados"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Activity.InfoOxigenacaoActivity" />
+        <activity android:name=".Activity.BbAlcoolicaActivity" />
+        <activity android:name=".Activity.HistoricoBbAlcooActivity" />
+        <activity android:name=".Activity.ChatPacienteActivity" />
+        <activity android:name=".Activity.AlimentosActivity" />
+        <activity android:name=".Activity.HistoricoAlimentosActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.healthheart.jessica.hh.Activity.InfoBatimentosActivity">
+
+    <Button
+        android:id="@+id/btnVoltarPrinpalBati"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:text="Voltar Tela Batimentos"
+        android:textSize="8sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_logo_menor" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Informações Batimentos Cardíacos"
+        android:textColor="#CD9B9B"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=" Os batimentos cardíacos normais de sua formação dentro do ventre da matriz até a morte."/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:text=" A frequência cardíaca é o número de pulsação do coração pela unidade de tempo. A frequência cardíaca é expressada Geralmente como batidas pela acta (BPM)."/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=" Os batimentos cardíacos a fornecer oxigenaram o sangue limpo do ventrículo esquerdo aos vasos sanguíneos do corpo através da aorta."/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=" Enquanto a necessidade para o oxigênio muda em várias situações, como o exercício, dorme e assim por diante, a frequência cardíaca muda em conformidade."/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#CD9B9B"
+        android:text=" Fonte: News Medical Life Sciences" />
+<!-- fonte https://www.news-medical.net/health/What-is-Heart-Rate.aspx-->
+
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text=" A pressão arterial é a pressão que oseu fluxo sanguíneo faz contra as paredes das suas artérias.A sistólica refere-se a pressão arterial quando o coração bombeia sangue.  A diastólica refere-se a pressão arterial quando o coração está em descanso entre os batimentos."/>
+
+
+     <android.support.v4.widget.Space
+         android:layout_width="match_parent"
+         android:layout_height="20dp" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text=" As medições inferiores a 120/80 mmHg geralmente são consideradas dentro do intervalo normal para adultos com idade igual ou superior a 20 anos.  o acompanhamento da pressão arterial em casa é importante para aqueles que têm pressão alta.  Ao acompanhar sua pressão arterial com frequência,  tente verificar na mesma hora do dia para obter leituras mais consistentes.Evite cigarros,  cafeina e exercicios por pelo menos 30 minutos antes de verificar sua pressão arterial." />
+
+     <android.support.v4.widget.Space
+         android:layout_width="match_parent"
+         android:layout_height="20dp" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:text=" Este aplicativo é destinado apenas para propósitos de monitoria e bem-estar nbo se destinando,  portanto,  a ser usado no diagnóstico de doenças ou outras condiçoes.  ou na cura,  mitigação,  tratamento ou prevenção de doenças."/>
+
+     <android.support.v4.widget.Space
+         android:layout_width="match_parent"
+         android:layout_height="20dp" />
+
+         -->
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#CD9B9B"
+        android:text="@string/txt_Direitos" />
+</LinearLayout>

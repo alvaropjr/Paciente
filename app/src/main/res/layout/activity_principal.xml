@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.healthheart.jessica.hh.Activity.PrincipalActivity"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDeslogar"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="118dp"
+            android:layout_height="30dp"
+            android:textSize="8sp"
+            android:text="Sair" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="#97496d"
+            android:gravity="center"
+            android:text="Aplicativo com cunho didático - Dados não científico "
+            android:textSize="8sp" />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_logo_menor" />
+
+    <Button
+        android:id="@+id/btnchat"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:gravity="center"
+        android:textColor="#97496d"
+        android:text="Chat Paciente"
+        android:textColorLink="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbntBatimento"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_batimentosazul_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbntOxigenacao"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/ic_oxigenacaoazul_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbtnPressao"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_pressaoazul_menor" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtnGlicose"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_glicosazul_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbtnPeso"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/ic_pesoazul_menor" />
+
+        <!--  <ImageButton
+              android:id="@+id/imgbtnMedicamento"
+              android:layout_width="110dp"
+              android:layout_height="94dp"
+              android:layout_marginLeft="5dp"
+              android:background="@drawable/ic_menu_medica_menor" /> -->
+
+
+        <ImageButton
+            android:id="@+id/imgbtnSaude"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_menu_saude" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgbtnDescanso"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_sonoazul_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbtnBebidas"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/ic_bebidas_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbtnAlimento"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_alimentoazul_menor" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/txt_Direitos" />
+</LinearLayout>
